@@ -1,6 +1,6 @@
 package com.tech.function
 
-class Person(val name :String){
+class Person(val name :String = "no name"){
     infix fun sayHelloTO(other : Person){
         println("$name says hello to ${other.name}")
     }
